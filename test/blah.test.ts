@@ -1,7 +1,5 @@
-// import { sum } from '../src';
-//
-// describe('blah', () => {
-//   it('works', () => {
-//     expect(sum(1, 1)).toEqual(2);
-//   });
-// });
+describe('soon', () => {
+  it('soon', () => {
+    expect('soon').toEqual('soon');
+  });
+});

@@ -30,7 +30,7 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "better-object-operators",
+  "name": "type-plus-1",
   "author": "Mario Bertsch",
   "module": "dist/better-objects.esm.js",
   "size-limit": [

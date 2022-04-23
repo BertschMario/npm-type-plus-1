@@ -17,3 +17,13 @@ export const arrayGetLast = (array: any[]) => {
 function throwError(message:string, error?:any){
   console.error(`[BetterObjectOperators${error ? '::'+error : ''}] ${message}`)
 }
+
+declare global {
+  interface String {
+    abc():void;
+  }
+}
+
+String.prototype.abc = function(){
+  console.log('objectTest')
+}
