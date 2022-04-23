@@ -1,10 +1,23 @@
 ﻿const boo = require('./dist')
 
-const testObj = {id:0,comment:'test'}
-const testArray = [{id:0,comment:'test1'},{id:1,comment:'test2'},{id:2,comment:'test3'}]
+const test1 = "abc";
+const test2 = 1010;
+const test3 = {abc:'abc'};
+const test4 = ['abc'];
 
-console.log(boo.objectProperties(testObj))
-console.log(boo.arrayObjectValue(testArray, 'comment'))
-console.log(boo.arrayObjectValue(testArray, 'property'))
-console.log(boo.arrayGetFirst(testArray))
-console.log(boo.arrayGetLast(testArray))
+test1.tpToStoreItem('test1');
+test2.tpToStoreItem('test2');
+test3.tpToStoreItem('test3');
+test4.tpToStoreItem('test4');
+
+console.log(test1)
+console.log(test2)
+console.log(test3)
+console.log(test4)
+
+console.log(tpGetStoreItem('test1'))
+console.log(tpGetStoreItem('test2'))
+console.log(tpGetStoreItem('test3'))
+console.log(tpGetStoreItem('test4'))
+
+console.log(tpGetAllStoreIds())
